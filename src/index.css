@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('./fonts/TTTravels-Bold.ttf') format('truetype');
+}
+
+.banner-heading-text{
+  font-family: 'MyFont', sans-serif;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.banner{
+  background-image: url('./assets/Media/HomePage/BackgroundElements/Background.png');
+  background-color: #191D29; 
+  width: 100%;
+  min-height: 100vh;
+  padding: 4rem 0rem !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.medium-green{
+  color: #9DFE00
+}
+
+.medium-blue{
+  color: #14D9EF
+}
+
+/* .cq{
+  margin-top: 2rem;
+} */
