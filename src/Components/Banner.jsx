@@ -9,7 +9,7 @@ import {RiPlayCircleLine} from 'react-icons/ri';
 const Banner = () => {
   return (
     <>
-      <div className="banner py-10">
+      <div className="banner pt-10 pb-5">
         <div className='banner-content'>
            <div className='flex justify-center'>
               <img className="w-[200px] md:w-[20%]" src={logo} alt="logo" />
@@ -35,7 +35,7 @@ const Banner = () => {
               </div>
            </div>
 
-            <div className=' mt-7 button-&-message flex flex-row flex-wrap-reverse justify-center align-center'>
+            <div className=' mt-7 button-&-message flex flex-row flex-wrap-reverse justify-center'>
                <button className="btn watch-now-button text-white font-semibold mt-7 md:mt-0 me-10"> <RiPlayCircleLine style={{fontSize:'20'}}/> Watch Now</button>
                <p className='medium-blue mt-8 w-[90%] mx-auto md:w-[25%] md:mx-0 message'>Brilliant but boozy scientist Rick hijacks his fretful teenage grandson, Morty, for wild escapades in other worlds and alternate dimensions</p>
             </div>

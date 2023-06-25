@@ -3,12 +3,22 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'MyFont';
+  font-family: 'MyFontBold';
   src: url('./fonts/TTTravels-Bold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'MyFontLight';
+  src: url('./fonts/TTTravels-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MyFontMedium';
+  src: url('./fonts/TTTravels-Medium.ttf') format('truetype');
+}
+
 .banner-heading-text{
-  font-family: 'MyFont', sans-serif;
+  font-family: 'MyFontBold', sans-serif;
 }
 
 *{
@@ -36,6 +46,7 @@
 }
 
 .watch-now-button{
+  font-family: 'MyFontMedium', sans-serif;
   background: linear-gradient(to right, #9DFE00, #14D9EF);
   outline: none;
   border: none;
@@ -44,6 +55,7 @@
 }
 
 .message{
+  font-family: 'MyFontLight', sans-serif;
   font-size:0.8rem;
   line-height: 1.5;
 }
