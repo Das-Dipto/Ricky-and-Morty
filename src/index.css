@@ -35,6 +35,19 @@
   color: #14D9EF
 }
 
+.watch-now-button{
+  background: linear-gradient(to right, #9DFE00, #14D9EF);
+  outline: none;
+  border: none;
+  border-radius: 35px;
+  padding: 1rem 2rem;
+}
+
+.message{
+  font-size:0.8rem;
+  line-height: 1.5;
+}
+
 /* .cq{
   margin-top: 2rem;
 } */
