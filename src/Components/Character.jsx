@@ -64,7 +64,7 @@ const Character = () => {
     allCharacter &&  <>
       
       <div className='w-[77%] mx-auto flex flex-wrap justify-between mt-20'>
-          <h3 className='text-white text-2xl mb-3 md:mb-0'>Meet The Cast</h3>
+          <h3 className='text-white text-2xl mb-3 md:mb-0 common-heading'>Meet The Cast</h3>
           <button className="view-all-button text-white font-semibold"> View All </button>
       </div>
       

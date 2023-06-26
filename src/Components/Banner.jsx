@@ -7,6 +7,7 @@ import gun from '../assets/Media/HomePage/HeroElements/Gun.png'
 import {RiPlayCircleLine} from 'react-icons/ri';
 import Character from './Character'
 import Episode from './Episode'
+import Location from './Location'
 
 const Banner = () => {
   return (
@@ -44,6 +45,7 @@ const Banner = () => {
         </div>
         <Character/>
         <Episode/>
+        <Location/>
       </div>
     </>
   )

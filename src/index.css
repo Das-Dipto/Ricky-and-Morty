@@ -85,10 +85,23 @@
   background: linear-gradient(to right, #9DFE00, #14D9EF);
 }
 
-.episode-card{
+.episode-card, .location-card{
   font-family: 'MyFontMedium', sans-serif;
-  border: 0.45px solid #9DFE00;
+  border: 0.45px solid;
+}
+
+.episode-card{
   border-radius: 10px 10px 40px 10px;
+  border-color:#9DFE00
+}
+
+.location-card{
+  border-radius: 10px 40px 10px 10px;
+  border-color: #14D9EF
+}
+
+.common-heading{
+  font-family: 'MyFontMedium', sans-serif;
 }
 /* .cq{
   margin-top: 2rem;
