@@ -60,6 +60,32 @@
   line-height: 1.5;
 }
 
+.character-card{
+  font-family: 'MyFontLight', sans-serif;
+  border: 0.45px solid;
+  border-radius: 15px !important;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #9DFE00, #14D9EF);
+}
+
+.character-card img{
+  border-radius: 8px;
+}
+
+.view-all-button{
+  font-family: 'MyFontMedium', sans-serif;
+  background: transparent;
+  border: 0.45px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #9DFE00, #14D9EF);
+  padding: 0.5rem 1rem;
+  transition: background 3s ease !important;
+}
+
+.view-all-button:hover{
+  background: linear-gradient(to right, #9DFE00, #14D9EF);
+}
+
 /* .cq{
   margin-top: 2rem;
 } */

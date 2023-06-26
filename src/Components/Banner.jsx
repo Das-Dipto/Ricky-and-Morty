@@ -5,6 +5,7 @@ import portal from '../assets/Media/HomePage/HeroElements/portal.png'
 import bubble from '../assets/Media/HomePage/HeroElements/bubble.png'
 import gun from '../assets/Media/HomePage/HeroElements/Gun.png'
 import {RiPlayCircleLine} from 'react-icons/ri';
+import Character from './Character'
 
 const Banner = () => {
   return (
@@ -38,9 +39,9 @@ const Banner = () => {
             <div className=' mt-7 button-&-message flex flex-row flex-wrap-reverse justify-center'>
                <button className="btn watch-now-button text-white font-semibold mt-7 md:mt-0 me-10"> <RiPlayCircleLine style={{fontSize:'20'}}/> Watch Now</button>
                <p className='medium-blue mt-8 w-[90%] mx-auto md:w-[25%] md:mx-0 message'>Brilliant but boozy scientist Rick hijacks his fretful teenage grandson, Morty, for wild escapades in other worlds and alternate dimensions</p>
-            </div>
-                        
+            </div>        
         </div>
+        <Character/>
       </div>
     </>
   )
