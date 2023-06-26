@@ -43,7 +43,7 @@ const Episode = () => {
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 2000,
+        speed: 1000,
         autoplaySpeed: 2000,
         responsive: [
           {
@@ -63,7 +63,7 @@ const Episode = () => {
     allEpisode &&  <>
       
     <div className='w-[77%] mx-auto  mt-40 mb-7'>
-        <h3 className='text-white text-2xl mb-3 md:mb-0 common-heading'>Episode</h3>
+        <h3 className='text-white text-2xl mb-3 md:mb-0 common-heading'>Episodes</h3>
     </div>
     
     <div className='flex justify-center align-center mt-2'>
