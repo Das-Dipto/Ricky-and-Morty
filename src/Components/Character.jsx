@@ -15,7 +15,7 @@ const Character = () => {
         },
     })
 
-    console.log(allCharacter.results);
+    // console.log(allCharacter.results);
     // console.log(allCharacter.results[5]);
     function SampleNextArrow(props) {
         const { className, style, onClick } = props;
@@ -45,7 +45,7 @@ const Character = () => {
         slidesToScroll: 1,
         // autoplay: true,
         // speed: 2000,
-        autoplaySpeed: 2000,
+        // autoplaySpeed: 2000,
         responsive: [
           {
             breakpoint: 600,

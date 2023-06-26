@@ -72,20 +72,24 @@
   border-radius: 8px;
 }
 
-.view-all-button{
+.view-all-button {
   font-family: 'MyFontMedium', sans-serif;
-  background: transparent;
   border: 0.45px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to right, #9DFE00, #14D9EF);
   padding: 0.5rem 1rem;
-  transition: background 3s ease !important;
+  transition: background-color 0.3s ease !important;
 }
 
-.view-all-button:hover{
+.view-all-button:hover {
   background: linear-gradient(to right, #9DFE00, #14D9EF);
 }
 
+.episode-card{
+  font-family: 'MyFontMedium', sans-serif;
+  border: 0.45px solid #9DFE00;
+  border-radius: 10px 10px 40px 10px;
+}
 /* .cq{
   margin-top: 2rem;
 } */
