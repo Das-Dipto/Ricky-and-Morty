@@ -68,7 +68,7 @@ const Character = () => {
           <button className="view-all-button text-white font-semibold"> View All </button>
       </div>
       
-      <div className='flex justify-center align-center mt-5'>
+       <div className='flex justify-center align-center mt-5'>
             <Slider {...settings} className='w-[80%]'> 
                     {
                         allCharacter.results?.map((item, index)=>(

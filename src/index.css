@@ -103,6 +103,10 @@
 .common-heading{
   font-family: 'MyFontMedium', sans-serif;
 }
+
+.cast-heading{
+  font-family: 'MyFontBold', sans-serif;
+}
 /* .cq{
   margin-top: 2rem;
 } */

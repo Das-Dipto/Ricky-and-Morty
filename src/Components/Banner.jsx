@@ -8,6 +8,7 @@ import {RiPlayCircleLine} from 'react-icons/ri';
 import Character from './Character'
 import Episode from './Episode'
 import Location from './Location'
+import Cast from './Cast'
 
 const Banner = () => {
   return (
@@ -46,6 +47,7 @@ const Banner = () => {
         <Character/>
         <Episode/>
         <Location/>
+        <Cast/>
       </div>
     </>
   )
