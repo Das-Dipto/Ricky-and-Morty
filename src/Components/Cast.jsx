@@ -2,7 +2,7 @@ import React from "react";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
-const Cast = () => {
+const Cast = (props) => {
   const { refetch, data: allCast = [] } = useQuery({
     queryKey: ["cast"],
     queryFn: async () => {
@@ -10,6 +10,7 @@ const Cast = () => {
       return res.data;
     },
   });
+
 
   return (
     <div className="w-[80%] md:w-[85%] mx-auto">
@@ -20,8 +21,11 @@ const Cast = () => {
         {allCast && (
           <>
             {allCast.results?.map((item, index) => (
-              <div key={index} className="">
-                <div className="character-card w-full md:w-[200px] p-4 mt-10">
+              <div key={index} className="" onClick={()=>props.cast(item.name)}>
+                <div
+                  className="character-card w-full md:w-[200px] p-4 mt-10"
+                  title="click to see full details below"
+                >
                   <img className="" src={item.image} alt="" />
                   <h4 className="font-semibold text-white text-1xl mt-4">
                     {item.name}
