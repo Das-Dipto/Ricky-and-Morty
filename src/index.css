@@ -107,6 +107,32 @@
 .cast-heading{
   font-family: 'MyFontBold', sans-serif;
 }
+
+.common-container{
+  border: 0.45px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #9DFE00, #14D9EF);
+}
+
+.cast-name{
+  color:#14D9EF;
+  font-family: 'MyFontBold', sans-serif;
+}
+
+.details li{
+  font-family: 'MyFontBold', sans-serif;
+  list-style-type:disc;
+  margin-left: 1rem;
+}
+
+
+.details h1{
+  font-family: 'MyFontMedium', sans-serif;
+}
+
+.details h3{
+  font-family: 'MyFontLight', sans-serif;;
+}
 /* .cq{
   margin-top: 2rem;
 } */
