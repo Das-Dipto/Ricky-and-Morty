@@ -12,7 +12,7 @@ import Cast from "./Cast";
 import Castdetails from "./Castdetails";
 
 const Banner = () => {
-  const [castName, setCastName] = useState(``);
+  const [castName, setCastName] = useState(null);
   const castNAME = (name) => {
     // console.log(name);
     setCastName(name);
